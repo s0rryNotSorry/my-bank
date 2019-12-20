@@ -38,6 +38,7 @@ public class BankTest {
         checkingAccount.deposit(1500.0);
 
         assertEquals(2.0, bank.totalInterestPaid(), DOUBLE_DELTA);
+        //test
     }
 
     @Test
